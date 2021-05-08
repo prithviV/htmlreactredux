@@ -1,12 +1,8 @@
 # htmlreactredux
 
-This simple html application demonstrates how a html page can load React components(outside React Ecossytem).
+This simple html application demonstrates how a html page can load React components(outside React Ecossytem) and use Redux.
 
-
-
-Non React Ecosystem: </div>
-
-> This is considered to be `anti-pattern` where react injects components outside react ecosystem and should be carefully considered before implementing it.
+> React injecting components into DOM outside react ecosystem is considered to be an `anti-pattern` and should be carefully considered before implementing this approach.
 
 1. Webpack 
 2. HTML pages (using default ejs templates)

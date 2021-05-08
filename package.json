@@ -1,10 +1,10 @@
 {
-  "name": "htmlapplication",
+  "name": "htmlreactredux",
   "version": "1.0.0",
   "description": "This application demonstrates how to inject components into dom elements without disturbing existing layout or html content",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --port 3000 --mode=development ",
+    "serve": "webpack serve --port 3000 --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -39,5 +39,13 @@
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "redux": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prithviV/htmlreactredux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prithviV/htmlreactredux/issues"
+  },
+  "homepage": "https://github.com/prithviV/htmlreactredux#readme"
 }
