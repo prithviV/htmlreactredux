@@ -1,0 +1,43 @@
+{
+  "name": "htmlapplication",
+  "version": "1.0.0",
+  "description": "This application demonstrates how to inject components into dom elements without disturbing existing layout or html content",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --port 3000 --mode=development ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "REACT",
+    "DOM",
+    "INJECTION",
+    "REACT",
+    "INJECTION"
+  ],
+  "author": "prithvi.vibuthi@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "postcss": "^8.2.14",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
+  }
+}
